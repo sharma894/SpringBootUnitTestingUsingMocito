@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: sunny
+    
+    spring:
+  jpa:
+    hibernate:
+      use-new-id-generator-mappings: false
+
+    
+  
+   
